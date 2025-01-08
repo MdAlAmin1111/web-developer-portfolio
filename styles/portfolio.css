@@ -35,6 +35,7 @@
     font-weight: 700;
     color: #FFFFFF;
     border: none;
+    cursor: pointer;
 }
 
 .section-title {
@@ -42,6 +43,7 @@
     font-weight: 700;
     color: #181818;
 }
+
 
 .section-description {
     font-size: 18px;
@@ -191,4 +193,58 @@ main {
     padding: 33px;
     box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
     
+}
+
+/* resume section style */
+
+.resume{
+    display: flex;
+    flex-direction: column;
+    margin-top: 130px;
+    margin-bottom: 113px;
+}
+.resume-title{
+    margin-bottom: 100px;
+}
+
+.resume-container{
+    display: flex;
+    gap: 24px;
+}
+.column-title{
+    font-size: 30px;
+    font-weight: 700px;
+    color: #474747;
+    /* margin-bottom: 30px; */
+}
+.item-title{
+    font-size: 25px;
+    font-weight: 700;
+    color: #474747;
+}
+.item-subtitle{
+    font-size: 20px;
+    font-weight: 600;
+    color: #757575;
+}
+.item-description{
+    font-size: 16px;
+    font-weight:400;
+    color: #757575;
+}
+.item > hr{
+    color: #D1D1D1;
+    /* font-weight: 1; */
+}
+.download-div{
+    margin-top: 50px;
+}
+.download-div > a{
+    text-decoration: none;
+    background-color: #FD6E0A;
+    padding: 18px 17px;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    border-radius: 4px;
 }
